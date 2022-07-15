@@ -29,12 +29,12 @@ function my_keydown(e)
 	keyPressed = e.keyCode;
 	console.log(keyPressed);
 	
-		if((keyPressed >=97 && keyPressed<=122)|| (keyPressed >=65 && keyPressed<=90))
+		if((keyPressed >=97 && keyPressed<=122)|| (keyPressed >=65 && keyPressed<=90)){
 		//write a code to check the type of key pressed
 		aplhabetkey();
 document.getElementById("dl").innerHTML="You pressed Alphabet key";
 console.log("alphabet key");
-
+		}
 	else{
 		otherkey();
 		document.getElementById("d1").innerHTML="You pressed symbol or other key";
